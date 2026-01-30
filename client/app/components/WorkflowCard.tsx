@@ -50,7 +50,7 @@ function WorkflowItem({
       }`}
     >
       <div className="text-brand-orange">{icon}</div>
-      <span className="text-sm">{label}</span>
+      <span className="text-sm text-white">{label}</span>
     </motion.div>
   );
 }
