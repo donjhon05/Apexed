@@ -127,6 +127,10 @@
   background-color: #ff562224;
 }
 
+.hover-bg-brand-opaque-dark:hover {
+  background-color: #0507081b;
+}
+
 .border-brand-orange {
   border-color: #FF5722;
 }
