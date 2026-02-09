@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar"
 import Header from "./components/Header"
 import GlowEffects from "./components/GlowEffects"
 import BlobEffects from "./components/BlobEffects"
+import Problem from "./components/Problem"
 
 export default function Home() {
     return (
@@ -12,6 +13,7 @@ export default function Home() {
             <BlobEffects />
             <Navbar />
             <Header />
+            <Problem />
         </main>
     )
 }
