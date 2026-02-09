@@ -115,6 +115,53 @@
   --sidebar-ring: oklch(0.556 0 0);
 }
 
+.text-gradient-orange {
+  background: linear-gradient(to right, #ff5722, #EBD2C9);
+  background-clip: text;
+  color: transparent
+}
+
+/* Glassmorphism navbar */
+.glass-navbar, .glass-button {
+  position: relative;
+  background: 
+    linear-gradient(to bottom, transparent, #5d5e5f8a) border-box;
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  /* subtle inner shine */
+  box-shadow: 0 6px 18px rgba(2,6,23,0.25);
+  border-left: none;
+  border-right: none;
+}
+
+.bottom-orange-shadow {
+  box-shadow: 0 5px 5px #ffae22a3;
+}
+
+.glass-navbar::before, .glass-button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+
+  background:
+    linear-gradient(to right, transparent, #a3a5a68a, transparent);
+}
+
+.glass-navbar::after, .glass-button::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+
+  background:
+    linear-gradient(to right, transparent, #a3a5a68a, transparent);
+}
+
 .text-brand-orange {
   color: #FF5722;
 }
@@ -128,7 +175,7 @@
 }
 
 .hover-bg-brand-opaque-dark:hover {
-  background-color: #0507081b;
+  background-color: transparent;
 }
 
 .border-brand-orange {
