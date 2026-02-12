@@ -46,6 +46,15 @@ export default function Header() {
                     <p className="text-white my-5 text-center">Helping startups build better</p>
                 </span>
             </div>
+            <div className="flex flex-col my-16">
+                <section className="flex flex-row md:gap-x-[3vw] gap-x-[4vw]">
+                    <Image className="md:w-[5vw] md:h-[1em]" src="/assets/images/TCLogo1.webp" alt="trusted company logo 1" width={50} height={50} />
+                    <Image className="md:w-[5vw] md:h-[1em]" src="/assets/images/TCLogo2.webp" alt="trusted company logo 2" width={50} height={50} />
+                    <Image className="md:w-[5vw] md:h-[1em]" src="/assets/images/TCLogo3.webp" alt="trusted company logo 3" width={50} height={50} />
+                    <Image className="md:w-[5vw] md:h-[1em]" src="/assets/images/TCLogo4.webp" alt="trusted company logo 4" width={50} height={50} />
+                    <Image className="md:w-[5vw] md:h-[1em]" src="/assets/images/TCLogo5.webp" alt="trusted company logo 5" width={50} height={50} />
+                </section>
+            </div>
         </section>
     )
 }
