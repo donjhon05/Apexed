@@ -13,10 +13,10 @@ function Navbar() {
         <span>About</span>
       </nav>
         <section className="flex justify-between items-center gap-8 text-sm">
-          <span className="text-white">Login</span>
+          <Image className="md:hidden" src="/assets/images/apexed-logo.webp" width={70} height={70} alt="apexed-logo" />
           <button className="glass-button rounded-lg px-6 py-3 text-white
-          hover-bg-brand-orange transition">
-          Start Your Subscription
+          hover-bg-brand-orange transition ms-[3em]">
+          Contact Us
           </button>
         </section>
     </header>
