@@ -8,7 +8,7 @@ import Problem from "./components/Problem"
 
 export default function Home() {
     return (
-        <main>
+        <main className="overflow-x-hidden">
             <GlowEffects />
             <BlobEffects />
             <Navbar />
