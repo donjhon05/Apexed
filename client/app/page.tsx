@@ -1,5 +1,5 @@
 import Navbar from "./components/Navbar"
-import Hero from "./components/Hero"
+import Solution from "./components/Solution"
 import Header from "./components/Header"
 import GlowEffects from "./components/GlowEffects"
 import BlobEffects from "./components/BlobEffects"
@@ -13,7 +13,7 @@ export default function Home() {
             <Navbar />
             <Header />
             <Problem />
-            <Hero />
+            <Solution />
         </main>
     )
 }
