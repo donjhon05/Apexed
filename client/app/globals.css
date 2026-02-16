@@ -121,6 +121,28 @@
   color: transparent
 }
 
+.typing-overlay {
+  background: linear-gradient(to right, 
+  white 0%, white 50%, #929292 50%, #929292 100% );
+  background-size: 200% 100%;
+  background-position: 100% 0;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.typing-active .typing-overlay {
+  animation: color-typing 7s linear forwards;
+}
+
+.typing-active .typing-overlay:nth-of-type(2) {
+  animation-delay: 8s;
+}
+
+.typing-active .typing-overlay:nth-of-type(3) {
+  animation-delay: 15s;
+}
+
 /* Glassmorphism navbar */
 .glass-navbar, .glass-button {
   position: relative;
@@ -134,8 +156,9 @@
   border-right: none;
 }
 
-.bottom-orange-shadow {
-  box-shadow: 0 5px 5px #ffae22a3;
+.cta-button {
+  background:
+    linear-gradient(to bottom, #ff5722 0%, #ff56227c 90%, #f5f5f770 100%);
 }
 
 .glass-navbar::before, .glass-button::before {
@@ -176,6 +199,7 @@
 
 .hover-bg-brand-opaque-dark:hover {
   background-color: transparent;
+  background: none;
 }
 
 .border-brand-orange {
@@ -184,6 +208,7 @@
 
 body {
   background-color: black;
+  background-image: url("/assets/website-glitter-bg.svg");
 }
 
 
@@ -199,6 +224,12 @@ body {
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: italic;
+}
+
+@keyframes color-typing {
+ to {
+  background-position: 0 0;
+ }
 }
 
 @layer base {

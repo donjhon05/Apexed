@@ -26,7 +26,7 @@ const items: Card[] = [
     },
 ];
 
-function Hero() {
+function Solution() {
   return (
     <section className="flex md:flex-row flex-col gap-x-[15em] my-[5em] mx-[3vw] items-center justify-center
     urbanist">
@@ -101,4 +101,4 @@ function Hero() {
 }
 
 
-export default Hero;
+export default Solution;

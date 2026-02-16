@@ -5,7 +5,7 @@ export default function Header() {
     return (
         <section className="relative flex flex-col justify-center text-center items-center my-[5em]
         gap-y-3 urbanist">
-            <div className="md:w-[20vw] p-3 border-x-5 border-brand-orange text-white
+            <div className="md:w-[15vw] p-3 border-x-5 border-brand-orange text-white
             sm:w-[50vw] bg-brand-opaque-orange text-center">
                     Intelligent AI Automation        
             </div>
@@ -22,7 +22,7 @@ export default function Header() {
                 </p>
             </div>
             <div className="md:flex-col">
-                <button className="rounded-lg border border-brand-orange bottom-orange-shadow px-6 py-3 bg-brand-orange text-white
+                <button className="cta-button rounded-lg border border-brand-orange px-6 py-3 bg-brand-orange text-white
                 hover-bg-brand-opaque-dark transition mx-3 my-3">
                     See AI Automation in Action
                 </button>
