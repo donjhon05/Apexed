@@ -65,7 +65,7 @@ export default function Problem() {
             </div>
             <div className="slider flex my-8 gap-x-[1vw]">
                 <motion.section className="track flex w-max overflow-x-hidden gap-x-[1vw]" initial={{ x: 0 }}
-                animate={{ x: "-50%" }}
+                animate={{ x: "-35%" }}
                 transition={{
                     repeat: Infinity,
                     repeatType: "loop",
