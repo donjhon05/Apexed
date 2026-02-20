@@ -2,18 +2,22 @@ import Navbar from "./components/Navbar"
 import Solution from "./components/Solution"
 import Header from "./components/Header"
 import GlowEffects from "./components/GlowEffects"
-import BlobEffects from "./components/BlobEffects"
 import Problem from "./components/Problem"
+import Process from "./components/Process"
+import Services from "./components/Services"
+import Packages from "./components/Packages"
 
 export default function Home() {
     return (
-        <main className="overflow-x-hidden">
+        <main className="overflow-hidden">
             <GlowEffects />
-            <BlobEffects />
             <Navbar />
             <Header />
             <Problem />
             <Solution />
+            <Process />
+            <Services />
+            <Packages />
         </main>
     )
 }
