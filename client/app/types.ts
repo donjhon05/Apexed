@@ -3,9 +3,3 @@ export interface Card {
     content: string,
     icon: string,
 }
-
-export interface Package {
-    package_id: string,
-    type: string,
-    content: string,
-}
