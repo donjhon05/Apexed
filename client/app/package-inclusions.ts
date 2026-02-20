@@ -4,7 +4,7 @@ export const packages: Package[] = [
     {
         package_id: "0",
         type: "basic",
-        content: "Access to 1 automation category of your choice (HR, Business Systems, Customer Engagement, or Marketing)",
+        content: "Access to 1 automation category of your choice (HR, Business Systems,\n Customer Engagement, or Marketing)",
     },
     {
         package_id: "1",
